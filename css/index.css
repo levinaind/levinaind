@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins&display=swap');
+
+/* Landing page CSS */
+.title-font {
+    margin: 10%;
+    font-family: 'Itim', cursive;
+    align-items: center;
+    font-size: 370%;
+}
+
+.description-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 160%;
+}
+
+.row {
+    margin-bottom: 10%;
+}
+
+/* Card for side projects */
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+border: none;
+outline: none;
+font-family: "Poppins", sans-serif;
+
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper {
+width: 90%;
+margin: 0 auto;
+
+}
+
+.button-value {
+
+    font-size: 150%;
+background-color: transparent;
+color: #C0B8B8;
+cursor: pointer;
+}
+
+.active {
+color: #E56B6F;
+text-decoration: underline;
+}
+
+#products {
+display: grid;
+grid-template-columns: auto auto;
+grid-column-gap: 4em;
+padding: 2.5em 0;
+
+
+}
+
+.title-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+}
+.product-name {
+    display:inline-block;
+    color: #F36767;
+    font-size: 150%;
+}
+
+.project-container h7 {
+    display:inline-block;
+    color: #B6B6B6;
+    font-size: 100%;
+}
+
+.project-container h6 {
+    display:inline-block;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 120%;
+}
+.github-logo {
+    max-width: 50%;
+    height: auto;
+    display: inline;
+    vertical-align: middle;
+}
+.card {
+margin-top: 1em;
+padding: 1em;
+border: none;
+}
+.image-container {
+text-align: center;
+}
+img {
+
+object-fit: contain;
+height: 18em;
+}
+.project-container {
+padding-top: 1.5em;
+}
+.project-container h5 {
+font-weight: 500;
+}
+.hide {
+display: none;
+}
+
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size:18px;
+    color: black;
+}
+
+.nav-links a {
+    color: black;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.menu li:hover {
+    color: #FAAA89;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 18px;
+    font-size: 20px;
+    list-style: none
+}
+
+/*END OF NAVBAR*/
+
+/* FOOTER STYLING STARTS*/
+footer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+footer p a {
+    font-family: "Poppins", sans-serif;
+    color: #F36767;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #702e2e;
+}
+
+.logo_footer a {
+    font-family: "Poppins", sans-serif;
+    padding-right: 15px;
+}
+
+
+
+/* END OF FOOTER*/
+
+@media screen and (max-width: 720px) {
+img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+}
+
+#products {
+    grid-template-columns: auto ;
+    grid-column-gap: 1em;
+}
+.github-logo {
+    max-width: 50%;
+    height: auto;
+}
+.button-value {
+    padding: 5%;
+    font-size: 100%;
+    
+}
+.title-font {
+    margin: 10%;
+    font-family: 'Itim', cursive;
+    align-items: center;
+    font-size: 250%;
+
+}
+
+.description-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+}

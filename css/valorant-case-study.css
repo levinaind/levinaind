@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins&display=swap');
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/*Header for image */
+.main-header {
+    width: 100%;
+
+}
+
+.main-header img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Project Overview */
+.proj-desc {
+    margin: 5% 5% 5% 5%;
+}
+
+.proj-desc h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 30%;
+    color: #FF4655;
+}
+
+.proj-desc h3 {
+    font-size: 20px;
+    padding-top: 5%;
+    font-weight: normal;
+    padding-right: 30%;
+}
+
+.proj-desc h4 {
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right: 30%;
+}
+
+.proj-desc h5 {
+    font-size: 15px;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+
+/* Section Title */
+h2 {
+    color: #FF4655;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.project-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.problem-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.solution-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.emphatize-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+/*Emphatize section */
+.user-research {
+    padding-top: 5%;
+    
+}
+
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 23px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+/* Iterations*/
+.sketch {
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.mockup {
+    padding-top:5%;
+    padding-bottom:10%;
+}
+
+.problem h5 {
+    font-size:20px;
+    font-style:italic
+}
+.problem {
+    padding-bottom: 20px;
+}
+
+.ideation-overview h3 {
+    font-size:25px;
+}
+
+.ideation-overview h4 {
+    font-size:20px;
+    font-weight: bold;
+    color: #FF969F;
+}
+
+
+/*Back to general section*/
+.ideation-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+.competitive-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.finalsolution-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.learnings-overview {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+/*Emphatize Row*/
+.emphatize-overview .row {
+    margin-top: 5%;
+}
+
+.emphatize-overview .row h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #FF4655;
+}
+
+.finalsolution-overview .row {
+    margin-bottom:10%;
+}
+
+.cta {
+    text-align: center;
+    margin: 10% 0% 10% 0;
+}
+
+.cta .btn {
+    color:  white;
+    background-color: #FF4655;
+    border: none;
+    font-size: 15px;
+    font-family: Helvetica;    
+
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    color: black;
+}
+
+.nav-links a {
+    color: black;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+
+}
+
+.menu li:hover {
+    color: #FAAA89;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 18px;
+    font-size: 20px;
+    list-style: none
+}
+
+/*END OF NAVBAR*/
+
+/* FOOTER STYLING STARTS*/
+footer p {
+    font-size: 20px;
+}
+
+footer p a {
+    color: #F36767;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #702e2e;
+}
+
+.logo_footer a {
+    padding-right: 15px;
+}
+
+.footer_col {
+    font-family: 'Poppins', sans-serif;
+    display: table;
+    margin-top: 5%;
+    margin-bottom:2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* END OF FOOTER*/
+
+@media screen and (max-width: 720px) {
+
+    /*Header for image */
+    .main-header {
+        height: 100%;
+
+    }
+
+    /* Project Overview */
+    .proj-desc {
+        margin: 10% 0 15% 0;
+    }
+
+    .proj-desc h1 {
+        padding-right: 0%;
+        text-align: center;
+    }
+
+    .proj-desc h3 {
+        font-size: 20px;
+        text-align: center;
+        padding-right: 0%;
+    }
+
+    .ideation img {
+        width: auto ;
+        max-width: 100% ;
+        height: auto ;
+    }
+    .blockquote p {
+        font-family: "Utopia-italic";
+        font-size:15px;
+        font-weight: 700px;
+        text-align: center;
+    }
+}

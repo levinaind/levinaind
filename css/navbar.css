@@ -1,0 +1,68 @@
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    color: black;
+}
+
+.nav-links a {
+    color: black;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+
+}
+
+.menu li:hover {
+    color: #FAAA89;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 18px;
+    font-size: 20px;
+    list-style: none
+}
+
+/*END OF NAVBAR*/
+
+/* FOOTER STYLING STARTS*/
+footer p {
+    font-size: 20px;
+}
+
+footer p a {
+    color: #F36767;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #702e2e;
+}
+
+.logo_footer a {
+    padding-right: 15px;
+}
+
+.footer_col {
+    display: table;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* END OF FOOTER*/
