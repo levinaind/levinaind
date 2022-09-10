@@ -45,7 +45,7 @@ let products = {
         category: "ux-design",
         href:"hangon-case-study.html",
         logo: "",
-        type: "UI/UX, MOBILE APP | DESIGNATHON | 10-min",
+        type: "UI/UX, MOBILE APP | DESIGNATHON | 7-MIN READ",
         desc: "a mobile app prototype that allows user to swap and upcycle clothes in effort to stop fast fashion",
         image: "img/projects/hangon-project.png",
       },
