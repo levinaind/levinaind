@@ -134,7 +134,12 @@ h3 {
 
 /* LOGO */
 .logo {
-    font-size: 32px;
+    font-size: 32px;   
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
 }
 
 /* NAVBAR MENU */

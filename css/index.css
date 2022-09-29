@@ -136,6 +136,10 @@ display: none;
 .logo {
     font-size: 32px;
 }
+.logo a {
+    color: black;
+    text-decoration: none;
+}
 
 /* NAVBAR MENU */
 .menu {
